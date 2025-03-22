@@ -12,17 +12,17 @@ The package includes both human-controlled and computer-controlled player classe
 
 Key Components:
 <ul>
-  <li> - [AngelsVsDemons](https://github.com/npomiloridis/AngelsVsDemons/blob/main/AngelsVsDemons.java) - The main class from which this game is run.</li>
-  <li>{@link hw2.Game} - Manages the overall game flow</li>
-  <li>{@link hw2.Player} - Abstract base class for all player types</li>
-  <li>{@link hw2.Angel} - Represents the Angel player who tries to reach the edge</li>
-  <li>{@link hw2.Devil} - Represents the Devil player who breaks squares</li>
-  <li>{@link hw2.ComputerAngel} - AI implementation of the Angel player</li>
-  <li>{@link hw2.ComputerDevil} - AI implementation of the Devil player</li>
-  <li>{@link hw2.Board} - Representation of the board of the game</li>
-  <li>{@link hw2.GraphicBoard} - Graphical representation of the game board</li>
-  <li>{@link hw2.Position} - Utility class for handling board positions</li>
-  <li>{@link hw2.Cell} - Utility class for each cell in the board</li>
+  <li> <a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/AngelsVsDemons.java">AngelsVsDemons</a> - The main class from which this game is run.</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Game.java">Game</a> - Manages the overall game flow</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Player.java">Player</a> - Abstract base class for all player types</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Angel.java">Angel</a> - Represents the Angel player who tries to reach the edge</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Devil.java">Devil</a> - Represents the Devil player who breaks squares</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/ComputerAngel.java">ComputerAngel</a> - AI implementation of the Angel player</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/ComputerDevil.java">ComputerDevil</a> - AI implementation of the Devil player</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Board.java">Board</a> - Representation of the board of the game</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/GraphicBoard.java">GraphicBoard</a> - Graphical representation of the game board</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Position.java">Position</a> - Utility class for handling board positions</li>
+  <li><a href="https://github.com/npomiloridis/AngelsVsDemons/blob/main/Cell.java">Cell</a> - Utility class for each cell in the board</li>
 </ul>
 
 Game Rules:
@@ -50,12 +50,15 @@ Note: Files "angel.png" and "crack.png" must be placed under the same directory 
 	<li>Parent Directory</li>
 	<ul>
 		<li>hw2</li>
+		<ul>
+			<li>Enter java files here.</li>
+		</ul>
 		<li>algs4.jar</li>
 		<li>angel.png</li>
 		<li>crack.png</li>
   </ul>
 </ul>
 
- * @author Nikolas Pomiloridis
- * @version 1.0
- * @since 22/03/2025
+Author: Nikolas Pomiloridis<br>
+Version: 1.0<br>
+Since: 22/03/2025<br>
