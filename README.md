@@ -25,8 +25,10 @@ A turn-based strategy game where an Angel tries to escape to the board's edges w
 
 ### Prerequisites
 - Java JDK 8+
-- `algs4.jar` (Princeton Standard Libraries, included in repository)
-- `angel.png` and `crack.png` (Images used for rendering, included in repository under `lib` directory)
+- `algs4.jar` (Princeton Standard Libraries)
+- `angel.png` and `crack.png` (Images used for rendering)
+
+All of these files are included in the repository under the `lib` directory.
 
 ### Steps
 
@@ -36,7 +38,6 @@ A turn-based strategy game where an Angel tries to escape to the board's edges w
 	cd AngelsVsDemons
 ```
 2. **Compile the code:**
-
 - **Windows**: `javac -cp .;algs4.jar hw2/*.java`
 - **Linux**: `javac -cp .:algs4.jar hw2/*.java`
 
