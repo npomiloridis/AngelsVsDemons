@@ -38,12 +38,12 @@ All of these files are included in the repository under the `lib` directory.
 	cd AngelsVsDemons
 ```
 2. **Compile the code:**
-- **Windows**: `javac -cp .;algs4.jar hw2/*.java`
-- **Linux**: `javac -cp .:algs4.jar hw2/*.java`
+- **Windows**: `javac -cp .;lib/algs4.jar hw2/*.java`
+- **Linux**: `javac -cp .:lib/algs4.jar hw2/*.java`
 
 3. **Launch the game:**
-- **Windows**: `java -cp .;algs4.jar hw2.AngelsVsDemons`
-- **Linux**: `java -cp .:algs4.jar hw2.AngelsVsDemons`
+- **Windows**: `java -cp .;lib/algs4.jar hw2.AngelsVsDemons`
+- **Linux**: `java -cp .:lib/algs4.jar hw2.AngelsVsDemons`
 
 ---
 
