@@ -20,10 +20,10 @@ public class GraphicBoard extends Board {
 	private static final double PEN_RADIUS = 0.035;
 
 	/** The file path for the angel image. */
-	private static final String ANGEL_PATH = "angel.png";
+	private static final String ANGEL_PATH = "lib/angel.png";
 
 	/** The file path for the crack image. */
-	private static final String CRACK_PATH = "crack.png";
+	private static final String CRACK_PATH = "lib/crack.png";
 
 	/** The color used for text and letters. */
 	private static final Color LETTERS = new Color(24, 29, 39);
